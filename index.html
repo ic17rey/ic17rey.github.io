@@ -3,8 +3,12 @@
 <html lang='en-us'>
 <head>
   <meta charset='UTF-8'>
-  <title>Activity 1: Basic HTML Bio</title>
-  <style>
+  <title>Reynolds HTML Bio</title>
+
+  <!-- Add a link to style.css file -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <!-- <style>
     h1 {
       margin-top: 15px;
       margin-bottom: 15px;
@@ -29,57 +33,67 @@
     p {
       font-size: 18px;
     }
-  </style>
+  </style> -->
 
 </head>
 
 <body>
 
-<h1>Student Bio<br>
-    Lindsay Reynolds</h1>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-<img src="#" alt='Lindsay Reynolds'>
-
-<p>I live in central Indiana and I am currently part of a bootcamp for Data Analytics.<br>
-   The bootcamp is offered by the Butler University Executive Education Department.</p>
-<p>My work experience includes nearly ten years within the administrative office of the Indiana Supreme Court.<br> 
-  I was a fiscal assistant for a number of years and also gained valuable experience as the business analyst for <br>
-  the State Office of GAL/CASA.</p>
-
+  <main class='container'>
+    <section id='main-bio'>
+      <section id='figure'>
+        <h2 id='bio_name'>Lindsay Reynolds</h2>
+        <img id='bio-image' src="https://placehold.it/200x200" alt='Lindsay Reynolds'>
+      </section>
+    
+      <p>I live in central Indiana and I am currently part of a bootcamp for Data Analytics.<br>
+      The bootcamp is offered by the Butler University Executive Education Department.</p>
+      <p>My work experience includes nearly ten years within the administrative office of the Indiana Supreme Court.<br> 
+      I was a fiscal assistant for a number of years and also gained valuable experience as the business analyst for <br>
+      the State Office of GAL/CASA.</p>
+      </section>
+    
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Github:</strong> <a target='_blank' href='https://github.com/ic17rey'>My GitHub Page</a></li>
+        <li><strong>LinkedIn:</strong> <a target='_blank' href='https://www.linkedin.com/in/lindsayreynolds17/'>My LinkedIn Profile</a></li>
+      </ul>
+        <!-- Bonus link to a page from last class -->
+      <p>Sample of classwork from .html activities<br>
+        <a target='_blank' href='../Classwork/11-Web/1/Activities/07-Stu_ImageAndLinks/Solved/indexLR.html'>Image and Links Class Activity</a></p>
+        
+    </aside>  
   
-
-  <ul>
-    <li><strong>Github:</strong> <a target='_blank' href='https://github.com/ic17rey'>My GitHub Page</a></li>
-    <li><strong>LinkedIn:</strong> <a target='_blank' href='https://www.linkedin.com/in/lindsayreynolds17/'>My LinkedIn Profile</a></li>
-  </ul>
-
-  <table>
-    <tr>
-      <th>Hobbies</th>
-      <th>Movies</th>
-      <th>Books</th>
-    </tr>
-    <tr>
-      <td>Travel</td>
-      <td>Casablanca</td>
-      <td>Brave the Wilderness</td>
-    </tr>
-    <tr>
-      <td>Cooking</td>
-      <td>The Wizard of Oz</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Gardening Vegetables</td>
-      <td>The Sting</td>
-      <td></td>
-    </tr>      
-  </table>
-<br>
-  <!-- Bonus link to a page from last class -->
-<p>Sample of classwork from .html activities<br>
-<a target='_blank' href='../Classwork/11-Web/1/Activities/07-Stu_ImageAndLinks/Solved/indexLR.html'>Image and Links Class Activity</a></p>
-
+    <!-- <table>
+      <tr>
+        <th>Hobbies</th>
+        <th>Movies</th>
+        <th>Books</th>
+      </tr>
+      <tr>
+        <td>Travel</td>
+        <td>Casablanca</td>
+        <td>Brave the Wilderness</td>
+      </tr>
+      <tr>
+        <td>Cooking</td>
+        <td>The Wizard of Oz</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Vegetable Gardening</td>
+        <td>The Sting</td>
+        <td></td>
+      </tr>      
+    </table>
+  <br> -->
+  
+</main>
 </body>
 
 </html>
