@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Bootstrap Link and CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+        crossorigin="anonymous">
+
+    <!-- File for additional styling -->
+        <link rel="stylesheet" href="style.css">
+    
+    <!-- Default options that are added when creating the html using "!" -->    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lindsay Reynolds Blog</title>
+
+</head>
+
+<body style="background-color: #800080;">
+    <!-- From bootstrap documentation add navbar and customize paddings and margins-->
+    
+    <nav class="navbar navbar-expand-lg navbar-light p-4">
+        <div class="container-fluid">
+        
+            <!-- Keep home button to the far left and update for white bolded text, rounded corners-->
+            <a class="navbar-brand text-white ps-5 pe-5 rounded fw-bold" href="index.html">Lindsay Reynolds</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active text-white pt-2 pb-2 pe-3" href="#" id="navbarDropdown" 
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Projects</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="col-md-12 col-sm-12 pt-md-2 pt-sm-2">
+                            <li><a class="dropdown-item text-black-50" href="https://ic17rey.github.io/plotly-challenge/" target="_blank">JavaScript Challenge</a></li>
+                            <!-- <li><a class="dropdown-item text-black-50" href="./visualizations/humidity.html">Humidity</a></li>
+                            <li><a class="dropdown-item text-black-50" href="./visualizations/cloudiness.html">Cloudiness</a></li>
+                            <li><a class="dropdown-item text-black-50" href="./visualizations/wind.html">Wind Speed</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white pt-2 pb-2 ps-3 pe-3"  href="./blog.html">Blog</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active text-white pt-2 pb-2 ps-3 pe-3"  href="./visualizations/data.html">Data</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <h3 class="p-4">Check back later!</h3>
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>
