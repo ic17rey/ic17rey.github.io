@@ -33,8 +33,8 @@ h6
 }
 
 .project 
-{border: solid white;
-  border-radius: 50px;
+{border-radius: 50px;
+  /* border: solid white; */
   background-color: #35415f;
   width: 50%;
   /* text-align: center; */
