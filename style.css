@@ -70,10 +70,23 @@ img {
 }
 
 /* For small screens  */
-@media (max-width: 700px) {
-  img {
-    width: 40%;
-    height: auto;
+@media (max-width: 600px) {
+  .navbar-brand {
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 15px;
+    border: solid white;
+  }
+  
+  .nav-item {
+    font-size: 22px; font-weight: bold;
+    font-family: "Lucida Handwriting", cursive;
+  }
+  
+  h3, h5 {
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
   }
 
   .summary-text {
@@ -86,10 +99,11 @@ img {
     border-radius: 50px;
     border: solid #32633a;
     background-color: #35415f;
-    width: 100%;
+    width: 80%;
     color: white;
-    padding-top: 2%;
-    padding-bottom: 1%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
     font-size: 10px;
     /* text-align: center; */
     /* display: inline-flex; */
@@ -97,11 +111,21 @@ img {
     /* justify-content: center; */
   }
 
+  h6 {
+    color: white;
+    font-size: 18px;
+  }
+  
   .project-text {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 10px;
     font-weight:600;
 
-  }  
+  }
+
+  img {
+    width: 40%;
+    height: auto;
+  }
     
 }
