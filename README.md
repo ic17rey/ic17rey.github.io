@@ -9,3 +9,4 @@
 - [ ] Update landing page for viewing on small devices
 - [ ] Add first blog post
 
+* Photo in summary by [Alfred Schrock](https://unsplash.com/s/photos/alfred-schrock-flower)
