@@ -64,4 +64,44 @@ a {
 img {
   width: 18%;
   height: auto;
+  padding-top: 0%;
+  margin-right: 2%
+
+}
+
+/* For small screens  */
+@media (max-width: 700px) {
+  img {
+    width: 40%;
+    height: auto;
+  }
+
+  .summary-text {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .project {
+    border-radius: 50px;
+    border: solid #32633a;
+    background-color: #35415f;
+    width: 100%;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-size: 10px;
+    /* text-align: center; */
+    /* display: inline-flex; */
+    /* align-items: center;  */
+    /* justify-content: center; */
+  }
+
+  .project-text {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight:600;
+
+  }  
+    
 }
