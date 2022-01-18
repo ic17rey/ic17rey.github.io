@@ -111,7 +111,7 @@ img {
     color: white;
     padding-top: 4%;
     padding-bottom: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 6%;
     font-size: 16px;
   }
 }
@@ -172,7 +172,7 @@ img {
     color: white;
     padding-top: 4%;
     padding-bottom: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     font-size: 14px;
     margin-left: 0%
   }
@@ -191,10 +191,10 @@ img {
 }
 
 /* For mobile */
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   .navbar-brand {
     font-family: "Lucida Handwriting", cursive;
-    font-size: 14px;
+    font-size: 16px;
     border: solid white;
     padding-left: 2px;
     padding-right: 2px;
@@ -208,7 +208,7 @@ img {
   
   h3, h5 {
     font-family: "Lucida Handwriting", cursive;
-    font-size: 22px;
+    font-size: 16px;
     color: white;
     font-weight: 600;
   }
@@ -228,7 +228,7 @@ img {
     border-radius: 50px;
     border: solid #32633a;
     background-color: #35415f;
-    width: 95%;
+    width: 92%;
     color: white;
     padding-top: 4%;
     padding-bottom: 2%;
@@ -239,20 +239,18 @@ img {
     border-radius: 50px;
     border: solid #32633a;
     background-color: #35415f;
-    width: 95%;
+    width: 92%;
     color: white;
     padding-top: 4%;
     padding-bottom: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     font-size: 14px;
-    margin-left: 0%
   }
 
   .project-text {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     font-weight:600;
-
   }
 
   img {
