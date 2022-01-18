@@ -4,18 +4,18 @@
 
 .navbar-brand {
   font-family: "Lucida Handwriting", cursive;
-  font-size: 34px;
+  font-size: 32px;
   border: solid white;
 }
 
 .nav-item {
-  font-size: 26px; font-weight: bold;
+  font-size: 24px; font-weight: bold;
   font-family: "Lucida Handwriting", cursive;
 }
 
 h3, h5 {
   font-family: "Lucida Handwriting", cursive;
-  font-size: 26px;
+  font-size: 24px;
   color: white;
   font-weight: 600;
 }
@@ -29,7 +29,7 @@ h6 {
 
 .summary-text {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight:600;
 }
 
@@ -58,7 +58,7 @@ h6 {
 
 .project-text {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight:600;
 }
 
@@ -71,7 +71,7 @@ a {
 }
 
 img {
-  width: 20%;
+  width: 18%;
   height: auto;
   padding-top: 0%;
   margin-right: 2%
@@ -91,8 +91,6 @@ img {
     font-weight:600;
   }
   
-
-
   .project {
     border-radius: 50px;
     border: solid #32633a;
@@ -128,18 +126,18 @@ img {
 @media (max-width: 768px) {
   .navbar-brand {
     font-family: "Lucida Handwriting", cursive;
-    font-size: 16px;
+    font-size: 18px;
     border: solid white;
   }
   
   .nav-item {
-    font-size: 22px; font-weight: bold;
+    font-size: 18px; font-weight: bold;
     font-family: "Lucida Handwriting", cursive;
   }
   
   h3, h5 {
     font-family: "Lucida Handwriting", cursive;
-    font-size: 22px;
+    font-size: 18px;
     color: white;
     font-weight: 600;
   }
@@ -151,7 +149,7 @@ img {
 
   .summary-text {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
   }
 
