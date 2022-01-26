@@ -9,8 +9,13 @@
 }
 
 .nav-item {
-  font-size: 24px; font-weight: bold;
+  font-size: 26px;
+  font-weight: bold;
   font-family: "Lucida Handwriting", cursive;
+}
+
+.dropdown-item{
+  color: #a117a1
 }
 
 h3, h5 {
@@ -80,6 +85,10 @@ img {
 
 /* Adjusting for responsiveness */
 @media (max-width: 1366px) {
+  .dropdown-item{
+    color: #a117a1
+  }
+  
   h6 {
     color: white;
     font-size: 20px;
@@ -135,6 +144,10 @@ img {
     font-family: "Lucida Handwriting", cursive;
   }
   
+  .dropdown-item{
+    color: #a117a1
+  }
+
   h3, h5 {
     font-family: "Lucida Handwriting", cursive;
     font-size: 18px;
@@ -204,6 +217,10 @@ img {
     font-size: 16px; 
     font-weight: bold;
     font-family: "Lucida Handwriting", cursive;
+  }
+
+  .dropdown-item{
+    color: #a117a1
   }
   
   h3, h5 {
