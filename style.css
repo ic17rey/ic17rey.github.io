@@ -30,6 +30,8 @@ h6 {
   font-size: 24px;
   color: white;
   font-weight: 600;
+  align-content: center;
+  align-items: center;
 }
 
 .summary-text {
@@ -46,6 +48,7 @@ h6 {
   color: white;
   padding-top: 2%;
   padding-bottom: 1%;
+  padding-right: 0%;
 }
 
 .project-contact {
