@@ -5,12 +5,13 @@
 .navbar-brand {
   font-family: "Lucida Handwriting", cursive;
   font-size: 32px;
-  border: solid white;
+  /* border: solid white;*/
+  background-color: #800080
 }
 
 .nav-item {
   font-size: 26px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-family: "Lucida Handwriting", cursive;
 }
 
@@ -20,9 +21,9 @@
 
 h3, h5 {
   font-family: "Lucida Handwriting", cursive;
-  font-size: 24px;
+  font-size: 20px;
   color: white;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 h6 {
@@ -36,7 +37,7 @@ h6 {
 
 .summary-text {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight:600;
 }
 
@@ -52,7 +53,7 @@ h6 {
 }
 
 .project-contact {
-  border-radius: 50px;
+  border-radius: 40px;
   border: solid #32633a;
   background-color: #35415f;
   width: 60%;
@@ -66,7 +67,7 @@ h6 {
 
 .project-text {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight:600;
 }
 
